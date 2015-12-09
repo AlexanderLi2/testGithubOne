@@ -16,6 +16,8 @@
 		26BF50B51C18128200B9ABA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BF50B31C18128200B9ABA8 /* LaunchScreen.storyboard */; };
 		26BF50C01C18128200B9ABA8 /* testPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF50BF1C18128200B9ABA8 /* testPodsTests.m */; };
 		26BF50CB1C18128200B9ABA8 /* testPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF50CA1C18128200B9ABA8 /* testPodsUITests.m */; };
+		26FF4B041C1817ED0060DCC0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF4B021C1817ED0060DCC0 /* TestViewController.m */; };
+		26FF4B051C1817ED0060DCC0 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FF4B031C1817ED0060DCC0 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		26BF50C61C18128200B9ABA8 /* testPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26BF50CA1C18128200B9ABA8 /* testPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPodsUITests.m; sourceTree = "<group>"; };
 		26BF50CC1C18128200B9ABA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FF4B011C1817ED0060DCC0 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		26FF4B021C1817ED0060DCC0 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		26FF4B031C1817ED0060DCC0 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		7158C07A1157E90CEA239098 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		90B0EFE4530CE3C93350A003 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E5E1CD14E6C55454C0FD62 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +122,9 @@
 				26BF50B31C18128200B9ABA8 /* LaunchScreen.storyboard */,
 				26BF50B61C18128200B9ABA8 /* Info.plist */,
 				26BF50A51C18128200B9ABA8 /* Supporting Files */,
+				26FF4B011C1817ED0060DCC0 /* TestViewController.h */,
+				26FF4B021C1817ED0060DCC0 /* TestViewController.m */,
+				26FF4B031C1817ED0060DCC0 /* TestViewController.xib */,
 			);
 			path = testPods;
 			sourceTree = "<group>";
@@ -272,6 +280,7 @@
 			files = (
 				26BF50B51C18128200B9ABA8 /* LaunchScreen.storyboard in Resources */,
 				26BF50B21C18128200B9ABA8 /* Assets.xcassets in Resources */,
+				26FF4B051C1817ED0060DCC0 /* TestViewController.xib in Resources */,
 				26BF50B01C18128200B9ABA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +356,7 @@
 			files = (
 				26BF50AD1C18128200B9ABA8 /* ViewController.m in Sources */,
 				26BF50AA1C18128200B9ABA8 /* AppDelegate.m in Sources */,
+				26FF4B041C1817ED0060DCC0 /* TestViewController.m in Sources */,
 				26BF50A71C18128200B9ABA8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
